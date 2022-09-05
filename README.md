@@ -1,4 +1,4 @@
-# Data_Engineering
+# Software Engineering
 Data Engineering standard practices of Extract - Transform - Load (ETL)
 
 
@@ -36,24 +36,6 @@ The relational DB section entails the management of structured and relational da
 Requirements: 'python3', 'postgre', 'sql', 'pandas', 'numpy' and 'json' ..
 
 
-#### NoSQL
-
-The non-relational database section implements the no-tabular schema that is optimized for the specific requirements of the type of data being stored. Here, the CQL of the Cassandra engine is used for Data modeling operations which entails: Tables creation, Joins, Denormalization, Clauses.
-
-Requirements: 'python3', 'cassandra', 'psycopg2', 'pandas', 'numpy' and 'json' ..
-
-
-#### Data_Warehousing
-
-The Data_Warehousing section uses the postgresql and cql to manage schemas on the Pagila dataset including, ETL, Fact and Dimension Tables, OLAP and OLTP Cubes.
-
-Requirements: 'python3', 'postgre', 'sql', 'pandas', 'numpy' and 'json' ..
-
-
-
-
-### Licensing, Authors, Acknowledgements
-The Pagila posgre movie rental dataset is used for anaysis in this work. You can find the Licensing for the data and other descriptive information at the link available [here](https://www.postgresqltutorial.com/postgresql-sample-database/). Otherwise, feel free to use the code here as you would like.
 
 
 
