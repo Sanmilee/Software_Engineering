@@ -1,5 +1,4 @@
-### Display "Hello: Welcome Lee"
-
+# Display "Hello: Welcome Lee"
 from fastapi import FastAPI
 
 app = FastAPI()
@@ -8,5 +7,5 @@ app = FastAPI()
 def hello():
     return "Hello: Welcome Lee"
 
-
-print("hello world")
+# uvicorn main_1:app --reload
+# http://127.0.0.1:8000
